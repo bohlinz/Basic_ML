@@ -1,2 +1,3 @@
-/research/object_detection/voc/
+models/research/object_detection/voc/
+.DS_store
 
