@@ -29,11 +29,14 @@ import hashlib
 import io
 import logging
 import os
+import sys
+
 
 from lxml import etree
 import PIL.Image
 import tensorflow as tf
 
+sys.path.append("..")
 from object_detection.utils import dataset_util
 from object_detection.utils import label_map_util
 
